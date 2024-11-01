@@ -153,7 +153,7 @@ app.on("window-all-closed", () => {
 });
 
 app.on("before-quit", () => {
-  /* Disconnects libtorrent */
+  /* Disconnects libtorren */
   PythonInstance.kill();
 });
 
